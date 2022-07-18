@@ -4,6 +4,14 @@ export const HistoryContainer = styled.main`
   flex: 1;
   padding: 3.5rem;
 
+  @media (max-width: 1080px) {
+    padding: 0.875rem;
+
+    table td:first-child {
+      width: 20%;
+    }
+  }
+
   display: flex;
   flex-direction: column;
 
